@@ -148,8 +148,9 @@ $ORG_SITE = ($ORG.nil? || $ORG.empty?) ? $SITE : "#{$ORG} #{$SITE}"
 #ExceptionNotifier.exception_recipients = [$ERROR_EMAIL]
 
 #Fairness including config
-$FAIRNESS_DISABLED = true
-$FAIRNESS_URL = ""
+$FAIRNESS_DISABLED = false
+$FAIRNESS_URL = "http://localhost:8080/fairness-assessment/?portal=agroportal"
+$HOSTNAME = "industryportal.enit.fr"
 
 #Coloaboration and support
 $HOME_PAGE_LOGOS = [
